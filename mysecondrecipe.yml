@@ -1,0 +1,10 @@
+resources:
+ - type: "package"
+   name: "httpd"
+ - type: "package"
+   name: "aide"
+ - type: "service"
+   name: "httpd"
+   action:
+    - enable
+    - start

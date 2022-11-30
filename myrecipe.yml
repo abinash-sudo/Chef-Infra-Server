@@ -1,0 +1,10 @@
+resources:
+ - type: "apt_update"
+ - type: "package"
+   name: "pip"
+  
+
+resources:
+ - type: "file"
+   name: "/tmp/abinash1.txt"
+   content: "Learning Chef is fun with YAML!"
